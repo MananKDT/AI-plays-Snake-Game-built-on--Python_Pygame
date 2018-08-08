@@ -6,4 +6,4 @@
 2. Adding new stages.
 3. Adding levels(difficulty).
 
-Please let me know in comments for any issues or plans.
+Please let me know in comments for any issues and things we can add.
