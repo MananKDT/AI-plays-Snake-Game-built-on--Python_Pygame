@@ -1,2 +1,3 @@
 # Snake-Game-using-Python_Pygame
-Simple implementation of pygame for begineers, please have a look.
+Use python 3.5+
+and install pygame through : pip install pygame
