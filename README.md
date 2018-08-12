@@ -1,4 +1,4 @@
-# Snake-Game-using-Python_Pygame
+# AI-plays-Snake-Game-built-on-Python_Pygame
     Use python3 (3.5+)
     and install pygame through : pip install pygame
     
