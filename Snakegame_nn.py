@@ -59,7 +59,7 @@ class SnakeNN:
             new_direction = self.turn_vector_to_the_right(snake_direction)
         elif action == 0:
             new_direction = snake_direction
-        new_direction = np.divide(new_direction,game.block_size)
+        new_direction = np.divide(new_direction,20)
         for pair in self.vectors_and_keys:
             if pair[0] == new_direction.tolist():
                 game_action = pair[1]
@@ -92,7 +92,7 @@ class SnakeNN:
 
     def is_direction_blocked(self, snake, direction):
         point = np.array(snake[-1]) + np.array(direction)
-        return point.tolist() in snake[1:].tolist() or point[0] < 0 or point[1] < 0 or point[0] > game.display_width or point[1] > game.display_height
+        return point.tolist() in snake[1:].tolist() or point[0] < 0 or point[1] < 0 or point[0] > 780 or point[1] > 580
 
     def turn_vector_to_the_left(self, vector):
         if vector[0] == 0:
